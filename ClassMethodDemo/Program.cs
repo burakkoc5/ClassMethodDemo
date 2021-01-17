@@ -27,7 +27,7 @@ namespace ClassMethodDemo
             cm.addCustomer(customer1);
             cm.addCustomer(customer2);
             cm.addCustomer(customer3);
-
+            Console.WriteLine("-----------------------");
             cm.showCustomers(customers);
 
             cm.deleteCustomer(customer1);
